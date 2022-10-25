@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="@dimen/_200sdp"
-        android:layout_margin="@dimen/_5sdp"
-        >
+        android:layout_margin="@dimen/_5sdp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -22,38 +21,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                app:layout_constraintGuide_percent="0.47" />
+                app:layout_constraintGuide_percent="0.45" />
 
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/guideline_vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                app:layout_constraintGuide_percent="0.36" />
+                app:layout_constraintGuide_percent="0.35" />
 
             <View
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:background="@color/naviblue"
+                android:background="@color/dark_blue"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/guideline_horizontal" />
 
             <View
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:background="@color/naviblue"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@id/guideline_horizontal" />
-
-            <View
-                android:id="@+id/view3"
+                android:id="@+id/view2"
                 android:layout_width="0dp"
                 android:layout_height="5dp"
-                android:background="@color/lightgreen"
+                android:background="@color/light_green"
                 app:layout_constraintBottom_toBottomOf="@id/guideline_horizontal"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/guideline_horizontal" />
@@ -66,18 +56,11 @@
                 android:src="@drawable/ic_corner"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_corner"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_launcher_background"
-                android:visibility="gone"
+                android:src="@drawable/ic_corner"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -87,100 +70,98 @@
                 android:layout_height="@dimen/_90sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:src="@drawable/propic"
-                app:civ_border_color="@color/lightgreen"
+                app:civ_border_color="@color/light_green"
                 app:civ_border_width="5dp"
                 app:layout_constraintBottom_toBottomOf="@id/guideline_horizontal"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/guideline_horizontal" />
-
 
             <TextView
                 android:id="@+id/tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Md Miraz Hossain"
-                android:textColor="@color/naviblue"
+                android:textColor="@color/dark_blue"
                 android:textSize="@dimen/_20sdp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@id/tv_sub"
+                app:layout_constraintBottom_toTopOf="@id/tv_designation"
                 app:layout_constraintStart_toStartOf="@id/guideline_vertical" />
 
             <TextView
-                android:id="@+id/tv_sub"
+                android:id="@+id/tv_designation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:text="Software Engineer"
-                android:textColor="@color/lightgreen"
+                android:textColor="@color/light_green"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="italic|bold"
-                app:layout_constraintBottom_toTopOf="@id/view3"
+                app:layout_constraintBottom_toTopOf="@id/view2"
                 app:layout_constraintStart_toStartOf="@id/guideline_vertical" />
 
             <TextView
-                android:id="@id/tv1"
+                android:id="@+id/tv_phone_no"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:gravity="center|start"
                 android:drawablePadding="@dimen/_5sdp"
+                android:gravity="center|start"
                 android:text="+880 1521432621"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_10ssp"
-                app:drawableStartCompat="@drawable/ic_baseline_phone_iphone_24"
-                app:drawableTint="@color/lightgreen"
+                app:drawableStartCompat="@drawable/ic_baseline_phone_iphone"
+                app:drawableTint="@color/light_green"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/guideline_vertical"
                 app:layout_constraintTop_toBottomOf="@id/guideline_horizontal" />
 
             <TextView
-                android:gravity="center|start"
-                android:id="@id/tv2"
+                android:id="@+id/tv_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:drawablePadding="@dimen/_5sdp"
+                android:gravity="center|start"
                 android:text="miraz.anik@gmail.com"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_10ssp"
-                app:drawableStartCompat="@drawable/ic_baseline_mail_outline_24"
-                app:drawableTint="@color/lightgreen"
+                app:drawableStartCompat="@drawable/ic_baseline_mail_outline"
+                app:drawableTint="@color/light_green"
                 app:layout_constraintStart_toStartOf="@+id/guideline_vertical"
-                app:layout_constraintTop_toBottomOf="@id/tv1" />
+                app:layout_constraintTop_toBottomOf="@id/tv_phone_no" />
 
             <TextView
-                android:gravity="center|start"
-                android:id="@id/tv3"
+                android:id="@+id/tv_address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:drawablePadding="@dimen/_5sdp"
+                android:gravity="center|start"
                 android:text="484 West Nakhalpara Dhaka - 1215"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_10ssp"
-                app:drawableStartCompat="@drawable/ic_baseline_location_on_24"
-                app:drawableTint="@color/lightgreen"
+                app:drawableStartCompat="@drawable/ic_baseline_location"
+                app:drawableTint="@color/light_green"
                 app:layout_constraintStart_toStartOf="@+id/guideline_vertical"
-                app:layout_constraintTop_toBottomOf="@id/tv2" />
+                app:layout_constraintTop_toBottomOf="@id/tv_email" />
 
             <TextView
-                android:gravity="center|start"
-                android:id="@+id/tv4"
+                android:id="@+id/tv_website"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:drawablePadding="@dimen/_5sdp"
+                android:gravity="center|start"
                 android:text="www.mirazanik.com"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_10ssp"
-                app:drawableStartCompat="@drawable/earth"
-                app:drawableTint="@color/lightgreen"
+                app:drawableStartCompat="@drawable/ic_earth"
+                app:drawableTint="@color/light_green"
                 app:layout_constraintStart_toStartOf="@+id/guideline_vertical"
-                app:layout_constraintTop_toBottomOf="@id/tv3" />
+                app:layout_constraintTop_toBottomOf="@id/tv_address" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </com.google.android.material.card.MaterialCardView>
-
 
 </LinearLayout>
