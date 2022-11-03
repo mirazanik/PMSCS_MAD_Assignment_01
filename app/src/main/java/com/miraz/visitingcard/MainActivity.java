@@ -3,6 +3,7 @@ package com.miraz.visitingcard;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
@@ -20,6 +21,18 @@ public class MainActivity extends AppCompatActivity
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
+
+        binding.btnfindRoute.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent1 = new Intent(v.getContext(), FindRouteActivity.class);
+                startActivity(intent1);
+            }
+        });
+
+
 
         binding.tvName.setText("Md Miraz Hossain");
         binding.tvDesignation.setText("Software Engineer");

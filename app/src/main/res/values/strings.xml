@@ -1,3 +1,103 @@
 <resources>
     <string name="app_name">Visiting Card</string>
+    <string name="Abdullahpur">Abdullahpur (আবদুল্লাহপুর)</string>
+    <string name="Airport">Airport (বিমানবন্দর)</string>
+    <string name="Asad_Gate">Asad Gate (আসাদ গেট)</string>
+    <string name="Ashulia">Ashulia (আশুলিয়া)</string>
+    <string name="Azampur">Azampur (আজমপুর)</string>
+    <string name="Banani">Banani (বনানী)</string>
+    <string name="Bangla_College">Bangla College (বাংলা কলেজ)</string>
+    <string name="Bangla_Motor">Bangla Motor (বাংলা মোটর )</string>
+    <string name="Beribadh">Beribadh (বেড়িবাঁধ)</string>
+    <string name="City_College">City College (সিটি কলেজ)</string>
+    <string name="College_Gate">College Gate (কলেজ গেট)</string>
+    <string name="Cand_b">C &amp; B (সিএন্ড বি)</string>
+    <string name="Dhanmondi15">Dhanmondi 15 (ধানমন্ডি ১৫)</string>
+    <string name="Dhanmondi27">Dhanmondi 27 (ধানমন্ডি ২৭)</string>
+    <string name="Farmgate">Farmgate (ফার্মগেট)</string>
+    <string name="Gabtoli">Gabtoli (গাবতলী)</string>
+    <string name="GPO">GPO (জিপিও)</string>
+    <string name="ju_university">Jahangirnagar University (জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের)</string>
+    <string name="Kakoli">Kakoli (কাকলি)</string>
+    <string name="Kakrail_more">Kakrail more (কাকরাইল মোড়)</string>
+    <string name="Kalabagan">Kalabagan(কলাবাগান)</string>
+    <string name="Kallyanpur">Kallyanpur (কল্যাণপুর)</string>
+    <string name="Kamarpara">Kamarpara (কামারপাড়া)</string>
+    <string name="Kazipara">Kazipara (কাজীপাড়া)</string>
+    <string name="Khamarbari">Khamarbari (খামারবাড়ি)</string>
+    <string name="Khilgaon">Khilgaon (খিলগাঁও)</string>
+    <string name="Malibagh">Malibagh(মালিবাগ)</string>
+    <string name="Manik_Mia_Avenue">Manik Mia Avenue (মানিক মিয়া এভিনিউ)</string>
+    <string name="Mirpur1">Mirpur 1 (মিরপুর ১)</string>
+    <string name="Mirpur10">Mirpur 10 (মিরপুর ১০)</string>
+    <string name="Mirpur2">Mirpur 2 (মিরপুর ২)</string>
+    <string name="Moghbazar_more">Moghbazar more(মগবাজার মোড়)</string>
+    <string name="Mohakhali_flyover">Mohakhali flyover (মহাখালী ফ্লাইওভার)</string>
+    <string name="Moscho_vobon">Moscho vobon (মৎস্য ভবন)</string>
+    <string name="Motijheel">Motijheel (মতিঝিল)</string>
+    <string name="Mouchak_Market">Mouchak Market(মৌচাক মার্কেট)</string>
+    <string name="Paltan">Paltan (পল্টন)</string>
+    <string name="Press_club">Press club (প্রেস ক্লাব)</string>
+    <string name="Science_lab">Science lab (সায়েন্স ল্যাব)</string>
+    <string name="Shahbagh">Shahbagh (শাহবাগ)</string>
+    <string name="Shanti_nagar">Shanti nagar (শান্তিনগর)</string>
+    <string name="Shewrapara">Shewrapara (শেওড়াপাড়া)</string>
+    <string name="Shyamoli">Shyamoli (শ্যামলী)</string>
+    <string name="Sonkor">Sonkor (সঙ্কর)</string>
+    <string name="Star_kabab">Star kabab (স্টার কাবাব)</string>
+    <string name="Switch_gate">Switch gate (সুইচগেট)</string>
+    <string name="Technical">Technical (টেকনিক্যাল)</string>
+    <string name="Zigatola">Zigatola (জিগাতলা)</string>
+
+    <string-array name="routes_list">
+        <item>@string/Abdullahpur</item>
+        <item>@string/Airport</item>
+        <item>@string/Asad_Gate</item>
+        <item>@string/Ashulia</item>
+        <item>@string/Azampur</item>
+        <item>@string/Banani</item>
+        <item>@string/Bangla_College</item>
+        <item>@string/Bangla_Motor</item>
+        <item>@string/Beribadh</item>
+        <item>@string/City_College</item>
+        <item>@string/College_Gate</item>
+        <item>@string/Cand_b</item>
+        <item>@string/Dhanmondi15</item>
+        <item>@string/Dhanmondi27</item>
+        <item>@string/Farmgate</item>
+        <item>@string/Gabtoli</item>
+        <item>@string/GPO</item>
+        <item>@string/ju_university</item>
+        <item>@string/Kakoli</item>
+        <item>@string/Kakrail_more</item>
+        <item>@string/Kalabagan</item>
+        <item>@string/Kallyanpur</item>
+        <item>@string/Kamarpara</item>
+        <item>@string/Kazipara</item>
+        <item>@string/Khamarbari</item>
+        <item>@string/Khilgaon</item>
+        <item>@string/Malibagh</item>
+        <item>@string/Manik_Mia_Avenue</item>
+        <item>@string/Mirpur1</item>
+        <item>@string/Mirpur10</item>
+        <item>@string/Mirpur2</item>
+        <item>@string/Moghbazar_more</item>
+        <item>@string/Mohakhali_flyover</item>
+        <item>@string/Moscho_vobon</item>
+        <item>@string/Motijheel</item>
+        <item>@string/Mouchak_Market</item>
+        <item>@string/Paltan</item>
+        <item>@string/Press_club</item>
+        <item>@string/Science_lab</item>
+        <item>@string/Shahbagh</item>
+        <item>@string/Shanti_nagar</item>
+        <item>@string/Shewrapara</item>
+        <item>@string/Shyamoli</item>
+        <item>@string/Sonkor</item>
+        <item>@string/Star_kabab</item>
+        <item>@string/Switch_gate</item>
+        <item>@string/Technical</item>
+        <item>@string/Zigatola</item>
+    </string-array>
+
 </resources>
