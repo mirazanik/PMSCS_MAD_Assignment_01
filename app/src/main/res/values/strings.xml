@@ -100,4 +100,8 @@
         <item>@string/Zigatola</item>
     </string-array>
 
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+
 </resources>
